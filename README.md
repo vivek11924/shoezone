@@ -1,2 +1,2 @@
 # shoezone
-collage project
+collage project it is online shoe web
