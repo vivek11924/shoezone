@@ -1,0 +1,108 @@
+/* navigation bar css */
+
+.navbar{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: crimson;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+}
+.logo{
+    flex-grow: 1;
+}
+.logo a{
+    flex-grow: 1;
+    font-size: 35px;
+    font-weight: 600px;
+    color: white;
+    
+}
+li{
+    display:inline-block;
+    list-style: none;
+}
+li a{
+    color: white;
+    padding: 20px;
+}
+.mainind{
+    display: flex;
+}
+.index .gallery .account .login{
+    flex-grow: 1;
+}
+.index :hover a{
+   box-shadow: 2px 2px 10px rgb(255, 0, 0);
+   
+}
+.gallery:hover a{
+    box-shadow: 2px 2px 10px rgb(255, 0, 0);
+    
+ }
+ .account :hover a{
+    box-shadow: 2px 2px 10px rgb(255, 0, 0);
+    
+ }
+ .login:hover a{
+    box-shadow: 2px 2px 10px rgb(255, 0, 0);
+    
+ }
+
+ /* offer images */
+.offer5{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+ /* cards css */
+
+.mean{
+    margin-left: 5%;
+    margin-right: 5%;
+  
+}
+ .cards{
+    width:18%;
+    background-color: rgb(111, 205, 221);
+    border-radius: 5px;
+    margin: 40px;
+    box-shadow: 2px 2px 10px rgb(5, 5, 5);
+    display: inline-block;
+    
+
+ }
+ .image img{
+    width: 100%;
+   
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+ .title{
+    text-align: center;
+    font-style: oblique;
+ }
+ .des{
+    text-align: center;
+    padding: 4px;
+ }
+  button{
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px;
+    padding:5px;
+    border-radius: 5px;
+  }
+  button:hover {
+   background-color: black;
+   color: white;
+   transition: .5s;
+  }
+  button:hover a {
+    background-color: black;
+    color: white;
+    transition: .5s;
+   }
+  
